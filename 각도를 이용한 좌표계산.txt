@@ -1,0 +1,10 @@
+ moveX[m]=moveX[m-1]+cos(dgree*PI/180)*radius;
+ moveY[m]=moveY[m-1]+sin(dgree*PI/180)*radius;
+
+ if(dgree2>175 && dgree2<185)
+       zNum+=0;
+ else if(dgree2>185)
+       zNum+=1;
+ else
+       zNum-=1;
+       moveZ[m]=zNum;
