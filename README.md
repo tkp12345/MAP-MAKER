@@ -42,4 +42,4 @@ void loop(){
   }
 }
 ```
-![processing](https://user-images.githubusercontent.com/46067837/102790986-ab945c80-43e9-11eb-808f-54fa050bc617.png)
+![processing](https://user-images.githubusercontent.com/46067837/102790986-ab945c80-43e9-11eb-808f-54fa050bc617.png){: width="60%" height="60%"}
