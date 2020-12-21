@@ -43,4 +43,5 @@ void loop(){
 }
 ```
 
+아두이노에서 컴퓨터로 전송받은데이터를 그래픽 기반 언어 "프로세싱"을 통해 처
 <img src="https://user-images.githubusercontent.com/46067837/102790986-ab945c80-43e9-11eb-808f-54fa050bc617.png" width="80%">
