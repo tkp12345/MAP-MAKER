@@ -24,7 +24,20 @@ SoftwareSerial mySerial(7, 8); // 시리얼 통신핀을 설정
 ```
 
 그런 다음 컴퓨터(window) 에서 이코드를 실행합니다
-'''
+```c++
+/*----------- 블루투스 모듈 을통한 컴퓨터 데이터수신 ---------- */
+#include <SoftwareSerial.h> 
+SoftwareSerial mySerial(7, 8);  // 시리얼 통신핀을 설정
 
-'''
+void setup() {
+  Serial.begin(57600);                               
+  mySerial.begin(9600); 
+}
+void loop(){
+   if (mySerial.available()) { // 넘어온 데이터가 존재하면
+    Serial.write(mySerial.read()); // 시리얼에 출력
+  }
+}
+```
+
 
