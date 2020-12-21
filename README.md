@@ -1,7 +1,7 @@
 # MAP-MAKER
 
 ## __Introduction__
-<span style="color:blue"> Introduction </span>
+ 
 MAP MAKER (for arduino) - 아두이노 주행키트를 활용한 x,y,z  지도생성(프로세싱) 및 광물질 탐사로봇 프로젝트
 
 ------------
