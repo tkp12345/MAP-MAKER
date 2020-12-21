@@ -12,3 +12,19 @@ MAP MAKER (for arduino) - 아두이노 주행키트를 활용한 x,y,z  지도�
 
 url : "https://www.youtube.com/watch?v=YVovNnWpEo0"
 ------------
+
+먼저 arduino 에서 이코드(arduinoProject_transmitter)를 실행합니다 
+
+'''
+/*----------- 블루투스 모듈 을통한 아두이노 데이터송신 ---------- */
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(7, 8); // 시리얼 통신핀을 설정
+...
+
+'''
+
+그런 다음 컴퓨터(window) 에서 이코드를 실행합니다
+'''
+
+'''
+
