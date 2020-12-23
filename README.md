@@ -16,6 +16,7 @@ url : "https://www.youtube.com/watch?v=YVovNnWpEo0"
 
 아두이노는 데이터를 전송하는 클라이언트 역할을 하고 
 컴퓨터는 데이터를 전송받는 서버역할을 합니다
+<img src="https://user-images.githubusercontent.com/46067837/102974223-80bd1c00-4541-11eb-8449-00f15c69635b.JPG" width="80%">
 
 먼저 arduino 에서 이코드(___arduinoProject_transmitter.ino___)를 실행합니다 
 
@@ -47,3 +48,6 @@ void loop(){
 아두이노에서 컴퓨터로 전송받은데이터를 그래픽 기반 언어 "프로세싱"을 통해 처리합니다.\
 컴퓨터에서 프로세싱 코드를 (__Processing_final.pde__)
 <img src="https://user-images.githubusercontent.com/46067837/102790986-ab945c80-43e9-11eb-808f-54fa050bc617.png" width="80%">
+
+
+
