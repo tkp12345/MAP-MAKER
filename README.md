@@ -15,8 +15,8 @@ url : "https://www.youtube.com/watch?v=YVovNnWpEo0"
 ------------
 
 아두이노는 데이터를 전송하는 클라이언트 역할을 하고 
-컴퓨터 연결 아두이노는 데이터를 전송받는 서버역할을 합니다 \n
-___*블루트스모듈 HC-06 사용___
+컴퓨터 연결 아두이노는 데이터를 전송받는 서버역할을 합니다 \
+___블루트스모듈 HC-06 사용___
 <img src="https://user-images.githubusercontent.com/46067837/102974223-80bd1c00-4541-11eb-8449-00f15c69635b.JPG" width="50%" height="60%">
 
 먼저 arduino 에서 이코드(___arduinoProject_transmitter.ino___)를 실행합니다 
