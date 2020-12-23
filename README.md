@@ -17,7 +17,7 @@ url : "https://www.youtube.com/watch?v=YVovNnWpEo0"
 아두이노는 데이터를 전송하는 클라이언트 역할을 하고 
 컴퓨터는 데이터를 전송받는 서버역할을 합니다
 
-먼저 arduino 에서 이코드(___arduinoProject_transmitter___)를 실행합니다 
+먼저 arduino 에서 이코드(___arduinoProject_transmitter.ino___)를 실행합니다 
 
 ```c++
 /*----------- 블루투스 모듈 을통한 아두이노 데이터송신 ---------- */
@@ -27,7 +27,7 @@ SoftwareSerial mySerial(7, 8); // 시리얼 통신핀을 설정
 
 ```
 
-그런 다음 컴퓨터(window) 에서 이코드(___arduinoProject_receiver___)를 실행합니다
+그런 다음 컴퓨터(window) 에서 이코드(___arduinoProject_receiver.ino___)를 실행합니다
 ```c++
 /*----------- 블루투스 모듈 을통한 컴퓨터 데이터수신 ---------- */
 #include <SoftwareSerial.h> 
