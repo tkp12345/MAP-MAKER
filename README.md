@@ -19,7 +19,7 @@ url : "https://www.youtube.com/watch?v=YVovNnWpEo0"
 ___블루트스모듈 HC-06 사용___
 <img src="https://user-images.githubusercontent.com/46067837/102974223-80bd1c00-4541-11eb-8449-00f15c69635b.JPG" width="50%" height="60%">
 
-먼저 arduino 에서 이코드(___arduinoProject_transmitter.ino___)를 실행합니다 
+먼저 arduino 주행키트 에서 이코드(___arduinoProject_transmitter.ino___)를 실행합니다 
 
 ```c++
 /*----------- 블루투스 모듈 을통한 아두이노 데이터송신 ---------- */
@@ -29,7 +29,7 @@ SoftwareSerial mySerial(7, 8); // 시리얼 통신핀을 설정
 
 ```
 
-그런 다음 컴퓨터(window) 에서 이코드(___arduinoProject_receiver.ino___)를 실행합니다
+그런 다음 컴퓨터 연결 arduino에서 이코드(___arduinoProject_receiver.ino___)를 실행합니다
 ```c++
 /*----------- 블루투스 모듈 을통한 컴퓨터 데이터수신 ---------- */
 #include <SoftwareSerial.h> 
