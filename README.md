@@ -120,11 +120,11 @@ void serialEvent(Serial p) {   //시리얼 통신을 하여 받은 문자열을 
 		     dgree = int(data[1]);  //yaw 각도(0~360)
 		     dgree2 = int(data[2]); //pitch 각도(0~360)
 		     count = int(data[3]);  //발광석의 개수
-		     //자이로 센서로 추출한 각도 값(0~360)을 이용하여 X, Y좌표를 구하고 이 값들을 배열의             이전 값과 더하여 배열에 저장함. 
+		     //자이로 센서로 추출한 각도 값(0~360)을 이용하여 X, Y좌표를 구하고 이 값들을 배열의 이전 값과 더하여 배열에 저장함. 
 		     moveX[m]=moveX[m-1]+cos(dgree*PI/180)*radius; //이동경로를 그리기 위한 좌표
 		     moveY[m]=moveY[m-1]+sin(dgree*PI/180)*radius;
 		
-		 //평지에 있을 때의 dgree2(pitch)의 값이 약 180도임. 이를 이용하여 값이 변하면 Z축의 값           을 변화시킴
+		 //평지에 있을 때의 dgree2(pitch)의 값이 약 180도임. 이를 이용하여 값이 변하면 Z축의 값을 변화시킴
 		     if(dgree2>175 && dgree2<185) 
 		       zNum+=0;
 		     else if(dgree2>185)
